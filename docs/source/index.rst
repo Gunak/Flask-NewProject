@@ -10,6 +10,9 @@ Welcome to Flask-NewProject's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   intro
+   tutorial
+   license
 
 
 Indices and tables
