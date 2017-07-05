@@ -1,3 +1,4 @@
 *.pyc
 Flask_NewProject.egg-info
 /dist/
+/venv/
