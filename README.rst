@@ -3,8 +3,11 @@ Flask-ProjectManager
 
 This is a command line tool that will create a new Flask application with the ability to create a simple setup or if you are using blueprints.
 
-[![Build Status](https://travis-ci.org/Gunak/Flask-NewProject.svg?branch=master)](https://travis-ci.org/Gunak/Flask-NewProject)
-[![PyPI version](https://badge.fury.io/py/Flask-NewProject.svg)](https://badge.fury.io/py/Flask-NewProject)
+.. image:: https://travis-ci.org/Gunak/Flask-NewProject.svg?branch=master
+    :target: https://travis-ci.org/Gunak/Flask-NewProject
+
+.. image:: https://badge.fury.io/py/Flask-NewProject.svg
+    :target: https://badge.fury.io/py/Flask-NewProject
 
 
 Getting Started
