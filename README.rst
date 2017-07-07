@@ -28,8 +28,8 @@ Raymond Williams
 Where to find the code
 ^^^^^^^^^^^^^^^^^^^^^^
 
-_Github
-_Issue-Tracker
+Github_
+Issue Tracker_
 
 .. _Github: https://github.com/Gunak/Flask-NewProject/
 .. _Issue-Tracker: https://github.com/Gunak/Flask-NewProject/issues
