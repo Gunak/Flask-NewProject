@@ -29,9 +29,11 @@ Where to find the code
 ^^^^^^^^^^^^^^^^^^^^^^
 
 My Github_ Page to view the code.
+
 .. _Github: https://github.com/Gunak/Flask-NewProject/
 
 Link to my Issue-Tracker_.
+
 .. _Issue-Tracker: https://github.com/Gunak/Flask-NewProject/issues
 
 If there are any bugs, features, or suggestions please fill out a new issue.
