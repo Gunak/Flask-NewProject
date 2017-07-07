@@ -29,7 +29,7 @@ Where to find the code
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Github_
-Issue Tracker_
+Issue-Tracker_
 
 .. _Github: https://github.com/Gunak/Flask-NewProject/
 .. _Issue-Tracker: https://github.com/Gunak/Flask-NewProject/issues
