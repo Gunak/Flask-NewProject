@@ -1,7 +1,7 @@
 Flask-ProjectManager
 ====================
 
-This is a command line tool that will create a new Flask application with the ability to create a simple setup or if you are using blueprints.
+This is a command line tool that will create a new Flask application directory structure with ease.
 
 .. image:: https://travis-ci.org/Gunak/Flask-NewProject.svg?branch=master
     :target: https://travis-ci.org/Gunak/Flask-NewProject
@@ -10,61 +10,27 @@ This is a command line tool that will create a new Flask application with the ab
     :target: https://badge.fury.io/py/Flask-NewProject
 
 
-Getting Started
-===============
+Its this easy
+-------------
 
-Prerequisites
-*************
+.. code-block:: python
 
+    flask-skeleton myApp
 
-Installing
-**********
+This will create a project directory and associated files for your new Flask app.
 
-    pip install Flask-NewProject
-
-Usage Commands
-**************
-
-For a skeleton structure:
-    flask-skeleton ProjectName
-
-This will create a simple skeleton structure with app.py created but with no content inside of it.
-
-For a simple structure:
-    flask-simple ProjecName
-
-This is the same as the skeleton structure with the addition of basic content in app.py and a test.py in the test directory. You can also run flask-simple right after flask-skeleton and it will add the basic setup into app.py as well.
-
-
-Running Tests
-*************
-
-Testing your new simple-structure
-I use nosetests from the project folder and run
-    nosetests
-
-There are two built in tests with flask-simple. One the check response code 200 and the other is for Hello World!
-
-
-
-Contributing
-************
-
-Please contribute if you can. This project is just getting underway, but help is always welcome.
-
-
-Version Information
-*******************
-Current version 0.2.1
-
-Authors
-*******
+Contributors
+------------
 
 Raymond Williams
 
 
+Where to find the code
+^^^^^^^^^^^^^^^^^^^^^^
 
-License
-*******
+.. _My Github: https://github.com/Gunak/Flask-NewProject/
+.. _Issue Tracker: https://github.com/Gunak/Flask-NewProject/issues
 
-This project is licensed under the MIT License - see the LICENSE file for details
+If there are any bugs, features, or suggestions please fill out a new issue.
+
+If you would like to contribute, any help is alway welcomed. Submit patches through a pull request. Once changes are merged in, you will be added to the Contributors list.
