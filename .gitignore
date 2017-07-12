@@ -3,3 +3,4 @@ Flask_NewProject.egg-info
 /dist/
 /venv/
 /docs/build/*
+notes.txt
