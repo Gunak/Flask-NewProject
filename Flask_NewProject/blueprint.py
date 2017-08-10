@@ -1,23 +1,54 @@
 import os
+from CreateDirs import create_dirs
 
 
-# CLI - 
-	# Create a new functional bluepring layout project
-		# NewFunctional appName
+class Blueprint:
 
-		# Options
-			# [--home]
-	# Create a new view with template directory
-		# NewFunctionalView viewName
+	def __init__(self, projectName, location=None):
+		self.projectName = projectName
+		self.location = location
 
-class FunctionalBlueprint:
-	"""Create a functional styple setup of a Flask Application."""
+		self._PACKAGE_DIR = None
+		self._PROJECT_DIR = None
 
-	# create the project directory
-	def createProject(projectName, location=os.getcwd()):
+		# what Functional and Divisional blueprints have in commpn
+		# project name folder
+		# in project folder:
+			# __init__.py, models.py
+
+	def create_package_folder(self):
+		# create a directory with the same name as the project
+		# check if location is default of None or if supplied by user
+		if self.location != None:
+			self.location = os.getcwd()
+		
+
+	def create_project_dir(self):
 		# create directory structure at current working directory unless specified
 		pass
 
-	def createNewView(name):
-		# create a new file in views/ with name as {name}.py and directory in templates as {name}/
+	def create_init_fIle(self):
+		# create __init__.py in project folder
 		pass
+
+	def create_models_file(self):
+		# create models.py in project folder
+		pass
+
+
+class FunctionalBlueprint(Blueprint):
+	"""Create a functional styple setup of a Flask Application."""
+	def __init__(self,  projectName, location=None):
+		super(Blueprint, self).__init__(projectName, location)
+
+	def create_new_view(self, name):
+		# create a new file in views/ with name as {name}.py
+		pass
+
+	def create_new_template(self, name):
+		# create a new folder and html file as {name}
+
+class DivisionalBlueprint(Blueprint):
+
+	def __init__(self,  projectName, location):
+		super().__init__(projectName, location)

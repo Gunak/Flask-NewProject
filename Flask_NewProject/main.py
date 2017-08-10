@@ -29,6 +29,16 @@ def create():
 		--help-simple-package		this will show how a simple package setup would be created
 		--help-functional 			this will show how a Functional setup would be created
 		--help-divisional	 		this will show how a Divisional setup would be created
+
+		# Other options
+		--readme, -r 				this will create a README file in the projects root, choice of [rst, md, txt]
+		--license, -l 				this will create a LICENSE file in the projects root, choice of [rst, md, txt]
+		--gitignore, -g 			this will create a .gitignore for project
+
+		On creation of a blueprint style, will create "home" as first view and template creation per sytle
+
+		Examples:
+
 		"""
     #parser = argparse.ArgumentParser()
     #parser.add_argument()
@@ -37,6 +47,20 @@ def create():
 
 
  def manage():
- 	"""Manage a Flask project that is using Blueprints."""
+ 	"""Manage a Flask project. Run commands from project root directory.
+ 	This will be callable as follows:
+ 		ManageProject [options]
+
+ 	Options as follows:
+ 		Options for project itself
+
+ 		--gitignore, -g [path-to-file] 					this will add the file specified to be added to the projects .gitignore
+ 		--license, -l [license type] 					this will autofill LICENSE.* with license type 
+
+		Options for blueprint style applications
+
+		--functional, -f | --divisional, -d				this specifies what style of application is being used
+		--new-view, -n [view name] 						this will create a new view and template setup per style of blueprint descried
+ 		"""
 
  	pass

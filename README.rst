@@ -19,6 +19,7 @@ Its this easy
 
 This will create a project directory and associated files for your new Flask app.
 
+
 Contributors
 ------------
 
